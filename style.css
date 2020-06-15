@@ -27,8 +27,8 @@ ul {
 }
 
 .logo {
-	height: 80px;
-	width: 200px;
+	margin: 20px 0 0 10px;
+	width: 250px;
 }
 
 header {
@@ -131,6 +131,7 @@ figcaption {
 	text-align: center;
 	font-weight: bold;
 	color: #0AC2FF;
+	padding:0 60px;
 }
 
 h2{
@@ -138,10 +139,11 @@ h2{
 }
 
 .person {
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	border-radius: 50%;
 }
+
 
 .cta {
 	background: #00cc80;
@@ -200,6 +202,13 @@ h2{
 
 .footer-container .container a {
 	text-decoration: none;
+	color: white;
+}
+
+small {
+	position: absolute;
+	left: 0;
+	bottom: 0;
 	color: white;
 }
 
@@ -308,9 +317,21 @@ nav ul li a:hover {
 		width: 100px;
 		margin-bottom: 5%;
 		margin-top: -5%;
+		animation: move 1s infinite;
 	}
 }
 
+@keyframes move {
+	0% {
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(25px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
 /*
 @media only screen and (min-width: 1024px){
 	.cta {
