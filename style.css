@@ -207,9 +207,10 @@ h2{
 
 small {
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	right: 0;
+	top: 0;
 	color: white;
+	margin-right: 10px;
 }
 
 nav ul {
@@ -332,7 +333,7 @@ nav ul li a:hover {
 		transform: translateY(0px);
 	}
 }
-/*
+
 @media only screen and (min-width: 1024px){
 	.cta {
 		width: 50%;
@@ -340,21 +341,22 @@ nav ul li a:hover {
 		transform: translateX(-60%);
 	}
 	.container {
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.show-desktop {
 		display: block;
 		margin: 0 auto 13% auto;
 	}
-	.hide-desktop {
+	.menu {
 		display: none;
 	}
 	nav ul {
-		position: inherit;
+		position: absolute;
 		width: auto;
 		background: none;
 		display: flex;
+		margin-top: 0;
 		padding-top: 0; 
 	}
 	nav ul li {
@@ -371,4 +373,4 @@ nav ul li a:hover {
 	}
 	
 }
-*/
+
