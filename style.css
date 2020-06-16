@@ -373,4 +373,58 @@ nav ul li a:hover {
 	}
 	
 }
+.cpy {
+	position: inherit;
+}
 
+#right-purple-tree {
+	animation: sway-right 1.8s infinite linear;
+	transform-origin: bottom;
+}
+
+#right-dark-tree {
+	animation: sway-right 1.4s infinite linear;
+	transform-origin: bottom;
+}
+#right-big-tree {
+	animation: sway-right 2.8s infinite linear;
+	transform-origin: bottom;
+}
+
+@keyframes sway-right {
+	0%{
+		transform: skewX(-2deg);
+	}
+	50%{
+		transform: skewX(0deg);
+	}
+	100%{
+		transform: skewX(-2deg);
+	}
+}
+
+#left-purple-tree {
+	animation: sway-left 1.8s infinite linear;
+	transform-origin: bottom;
+}
+
+#left-dark-tree {
+	animation: sway-left 1.4s infinite linear;
+	transform-origin: bottom;
+}
+#left-big-tree {
+	animation: sway-left 2.8s infinite linear;
+	transform-origin: bottom;
+}
+
+@keyframes sway-left {
+	0%{
+		transform: skewX(-2deg);
+	}
+	50%{
+		transform: skewX(0deg);
+	}
+	100%{
+		transform: skewX(-2deg);
+	}
+}
