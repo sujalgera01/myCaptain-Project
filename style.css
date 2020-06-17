@@ -3,6 +3,7 @@
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	box-sizing: border-box;
+	user-select: none;
 }
 
 p,blockquote {
@@ -73,7 +74,7 @@ h1, .subhead {
 .blue-container {
 	width: 100%;
 	background: #0AC2FF;
-	color: white;
+	color: black;
 	margin-top: 15%;
 	padding: 4em 0 2em;
 	transform: skewY(-2deg);
