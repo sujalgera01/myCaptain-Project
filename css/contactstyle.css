@@ -4,8 +4,22 @@
 	box-sizing: border-box;
 }
 
-.form-group {
-	margin: 40px auto; 
+.container{
+	background: #ddd;
+	width: 600px;
+	border-radius: 20px;
+}
 
+.form-group {
+	margin: 10px auto;
+	padding-top: 5px;
+	font-size: 20px;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 25px;
+	margin: 10px;
 
 }
