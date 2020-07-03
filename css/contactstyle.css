@@ -65,3 +65,7 @@ hr:before {
 .header {
 	display: flex;
 }
+
+.list {
+	color: black;
+}
