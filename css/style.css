@@ -48,6 +48,11 @@ header {
 	width: 50px;
 }
 
+.content {
+	font-size: 20px;
+	text-align: center;
+	margin-left: 40px;
+}
 .scroll {
 	display: none;
 }
@@ -144,6 +149,13 @@ h2{
 	height: 150px;
 	width: 150px;
 	border-radius: 50%;
+}
+
+.person1 {
+	margin-right: 20px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
 }
 
 
